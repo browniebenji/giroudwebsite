@@ -1,0 +1,26 @@
+body 
+{
+    background-image: url(assets/mainbackground.jpg);
+}
+
+header
+{
+    display: flex;
+    background: lightblue;
+}
+
+nav
+{
+    display: flex;
+    background: lightcoral;
+}
+
+main
+{
+    background: lavender;
+}
+
+aside
+{
+   
+}
