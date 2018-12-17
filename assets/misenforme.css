@@ -1,12 +1,13 @@
 body 
 {
-    background-image: url(assets/mainbackground.jpg);
+  background-color: #ee6000;
 }
 
 header
 {
-    display: flex;
-    background: lightblue;
+    position: 
+    text-align: center;
+    background: white;
 }
 
 nav
@@ -15,12 +16,31 @@ nav
     background: lightcoral;
 }
 
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li
+{
+    display: block;
+    justify-content: space-around;
+}
+
+h2
+{
+   text-align: center;
+}
+
 main
 {
-    background: lavender;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 aside
 {
-   
+   border: 5px groove yellow
 }
