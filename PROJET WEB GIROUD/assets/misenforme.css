@@ -1,0 +1,107 @@
+html
+{
+    display: block;
+    margin: auto;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+body 
+{
+  font-family: 'News Cycle', sans-serif;
+  font-weight: normal;
+}
+
+nav
+{
+    display: block;
+    background: white;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    background-color: orange;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+nav img
+{
+    width: 50px;
+    height: 50px;
+}
+
+#Promotions
+{
+    text-align: center;
+}
+
+header
+{
+   display: block;
+   text-align: center;
+}
+
+nav ul
+{
+    display: flex;
+    align-self: auto;
+}
+
+nav ul li
+{
+    display: flex;
+    margin: auto;
+    border: 3px solid yellow;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2em 2em 2em 2em;
+    background-color: yellow;
+}
+
+h2
+{
+   text-align: center;
+}
+
+.barré
+{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-weight: 30;
+
+}
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2em 2em 2em 2em;
+    background-color: white;
+    border: 5px solid orange;
+    text-align: center;
+    background-color: orange;
+}
+
+aside
+{
+   display: block;
+   border-radius: 2em 2em 2em 2em;
+   background-color: white;
+   border: 5px solid orange;
+   text-align: center;
+}
+
+aside ul
+{
+    text-align: left;
+}
+
+aside ul li
+{
+
+}
