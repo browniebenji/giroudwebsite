@@ -1,0 +1,179 @@
+@media all and (max-width:480px)
+{
+
+}
+
+@media (min-width:480px) and (max-width:780px)
+{
+
+}
+
+@media (min-width:781px) and (max-width:979px)
+{
+
+}
+
+html
+{
+    display: block;
+    margin: auto;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+body 
+{
+    font-family: 'News Cycle', sans-serif;
+    font-weight: normal;
+}
+
+nav
+{
+    display: block;
+    background: white;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    background-color: orange;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.formulaire .champ
+{
+    width: 200px;
+    height: 20px;
+}
+
+.formulaire .bouton
+{
+    background-image: url("Loupe.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 27px 27px;
+    width: 35px;
+    height: 35px;
+    padding: center;
+
+    box-shadow: none !important;
+    border-radius: 1em 1em 1em 1em;
+}
+
+nav img
+{
+    width: 50px;
+    height: 50px;
+}
+
+#messacc
+{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+#promotions
+{
+    display: block;
+    text-align: left;
+    width: 200px;
+    height: auto;
+}
+
+#promotions h3
+{
+    text-align: center;
+}
+
+header
+{
+   display: block;
+   text-align: center;
+}
+
+nav ul
+{
+    display: flex;
+    align-self: auto;
+}
+
+nav ul li
+{
+    display: flex;
+    margin: auto;
+    /*border: 3px solid yellow;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2em 2em 2em 2em;
+    background-color: yellow;*/
+    font-weight: bold;
+}
+
+a:link
+{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+h2
+{
+   text-align: center;
+}
+
+.barré
+{
+    text-align: center;
+    text-decoration: line-through;
+    text-emphasis-color: red;
+    font-weight: bold;
+    color: red;
+}
+
+.nbarré
+{
+    font-weight: bold;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+    /*border-radius: 2em 2em 2em 2em;*/
+    background-color: white;
+    border: 5px solid orange;
+    text-align: center;
+    background-color: orange;
+
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+aside
+{
+   display: block;
+   border-radius: 2em 2em 2em 2em;
+   background-color: white;
+   border: 5px solid orange;
+   text-align: center;
+}
+
+aside ul
+{
+    text-align: left;
+}
+
+aside ul li
+{
+
+}

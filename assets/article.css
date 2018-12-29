@@ -1,0 +1,161 @@
+@media all and (max-width:480px)
+{
+
+}
+
+@media (min-width:480px) and (max-width:780px)
+{
+    body  {width: auto}
+}
+
+@media (min-width:781px) and (max-width:979px)
+{
+    body  {width: auto}
+}
+
+html
+{
+    display: block;
+    margin: auto;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+body 
+{
+    font-family: 'News Cycle', sans-serif;
+    font-weight: normal;
+}
+
+nav
+{
+    display: block;
+    background: white;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    background-color: orange;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.formulaire .champ
+{
+    width: 200px;
+    height: 20px;
+}
+
+.formulaire .bouton
+{
+    background-image: url("Loupe.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 27px 27px;
+    width: 35px;
+    height: 35px;
+    padding: center;
+
+    box-shadow: none !important;
+    border-radius: 1em 1em 1em 1em;
+}
+
+nav img
+{
+    width: 50px;
+    height: 50px;
+}
+
+nav ul
+{
+    display: flex;
+    align-self: auto;
+}
+
+nav ul li
+{
+    display: flex;
+    margin: auto;
+    /*border: 3px solid yellow;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2em 2em 2em 2em;
+    background-color: yellow;*/
+    font-weight: bold;
+}
+
+a:link
+{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+h2
+{
+   text-align: center;
+}
+
+.barré
+{
+    text-align: left;
+    text-decoration: line-through;
+    text-emphasis-color: red;
+    font-weight: bold;
+    color: red;
+}
+
+.nbarré
+{
+    font-weight: bold;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    /*border-radius: 2em 2em 2em 2em;*/
+    background-color: white;
+    border: 5px solid orange;
+    text-align: center;
+    background-color: orange;
+
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+#Photo
+{
+    align-content: center;
+}
+
+#description
+{
+    text-align: left;
+}
+
+#speech
+{
+    display: block;
+    width: 1200px;
+    text-align: left;
+    margin: 10px 50px 10px 50px;
+}
+
+/*a.bouton 
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+
+    width: 30px;
+    height: 20px;
+}*/
