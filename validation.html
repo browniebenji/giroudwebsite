@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>PHOENIX LLC - Panier</title>
+        <meta charset="utf-8"/>
+        <link href="assets/validation.css" rel="stylesheet" type="text/css" media="screen"
+              href="https://fonts.googleapis.com/css?family=News+Cycle">
+        <link rel="shortcut icon" href="assets/Logonoir.png"/>
+        <link rel="icon" href="assets/Logonoir.png"/>
+    </head>
+
+    <body>
+
+        <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                             QUI SOMMES NOUS ?
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="">
+                            NOS PRODUITS
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="index.html">
+                            <img src="assets/Logonoir.png" alt="Logo de PHOENIX LLC">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="validation.html">
+                            PANIER
+                        </a>
+                    </li>
+        
+                    <li>
+                        <form class="formulaire">
+                            <input placeholder="Rechercher..." class="champ" type="text"/>
+                            <input class="bouton" type="button" value=" " />
+                        </form>
+                    </li>
+        
+                </ul>
+        </nav>
+
+        <div id="messpanier">
+            <h2>Votre panier :</h2>
+        </div>
+
+        <main>
+
+            <aside id="description">
+
+                <h3>Phoenix Wing W7X</h3>
+                <ul>
+                    <li>Dimensions : 150 x 70 x 7 mm</li>
+                    <li>Poids : 170 g</li>
+                    <li>Ecran : 6 pouces AMOLED</li>
+                    <li>Définition : 2240 x 1080</li>
+                    <li>DPI : 500</li>
+                    <li>RAM / ROM : 4 Go / 64 Go</li>
+                    <li>Appareil photo frontal : 18 MP</li>
+                    <li>Appareil photo "selfie" : 12 MP</li>
+                    <li>Batterie : 3500 mAh</li>
+                </ul>
+            </aside>
+
+            <aside id="prix">
+                <p class="barré">€699.99</p>
+                <p class="nbarré">€499.99</p>
+            </aside>
+        </main>
+
+        <footer>
+
+            <form method="POST" action="assets/formulaire.txt">
+                <h1>Passer commande :</h1>
+                <div><label>Nom : <input type="text" autofocus required></label></div>
+                <div><label>Prenom : <input type="text" required></label></div>
+                <div><label>Date de naissance : <input type="text" required placeholder="jj/mm/aaaa"></label></div>
+                <div><label>Adresse ligne 1 : <input type="text" required placeholder="Rue, voie, boîte postale, nom de société..."></label></div>
+                <div><label>Adresse ligne 2 : <input type="text" placeholder="Bâtiment, étage, lieu-dit, indication au livreur etc..."></label></div>
+                <div><label>Ville : <input type="text" required></label></div>
+                <div><label>Etat / Région / Canton : <input type="text" required></label></div>
+                <div><label>Code postal : <input type="text" required></label></div>
+                <div><label>Pays :
+                    <select required>
+                        <option value="">---</option>
+                        <option value="France">France</option>
+                        <option value="USA">USA</option>
+                        <option value="Royaume-Uni">Royaume-Uni</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Russie">Russie</option>
+                        <option value="Chine">Chine</option>
+                        <option value="Japon">Japon</option>
+                        <option value="Corée du sud">Corée du sud</option>
+                    </select>
+                </label></div>
+                <div><label>N° de téléphone : <input type="text"></label></div>
+                <div><label>Adresse E-mail : <input type="email" required></label></div>
+                <div><input type="submit" value="Passer commande" id="Submit"></div>
+                
+            </form>
+
+            <aside>
+                <img src="assets/Logoblanc.png" alt="Logo de PHOENIX LLC">
+                <p>PHOENIX</p>
+                <p>Reborn of its ashes<p>
+            </aside>
+
+        </footer>
+
+
+    </body>
+
+</html>

@@ -97,7 +97,7 @@ nav
     width: 35px;
     height: 35px;
 
-    box-shadow: none;
+    box-shadow: none !important;
     border-radius: 1em 1em 1em 1em;
 }
 
@@ -130,7 +130,21 @@ a:link
     text-decoration-color: black;
 }
 
-#messacc
+h2
+{
+   text-align: center;
+}
+
+.barré
+{
+    text-align: left;
+    text-decoration: line-through;
+    text-emphasis-color: red;
+    font-weight: bold;
+    color: red;
+}
+
+#messpanier
 {
     position: absolute;
     top: 80px;
@@ -140,9 +154,51 @@ a:link
     height: auto;
 }
 
-h2
+main
 {
-   text-align: center;
+    display: flex;
+    justify-content: left;
+    /*border-radius: 2em 2em 2em 2em;*/
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    background-color: orange;
+
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+#description
+{
+    display: flex;
+    text-align: left;
+}
+
+#description ul
+{
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#description h3
+{
+    padding-left: 50px;
+}
+
+#description ul li
+{
+    padding: 0px 25px 0px 25px;
+}
+
+#prix
+{
+    display: block;
+    padding-right: 50px;
 }
 
 .barré
@@ -159,40 +215,6 @@ h2
     font-weight: bold;
 }
 
-main
-{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    background-color: orange;
-
-    position: absolute;
-    top: 145px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-}
-
-#Imagepres
-{
-    display: block;
-}
-
-#Photo
-{
-    align-content: center;
-    background-size: cover;
-    max-width: 100%;
-    height: 500px;
-}
-
-#description
-{
-    text-align: left;
-}
-
 #speech
 {
     display: block;
@@ -201,21 +223,9 @@ main
     margin: 10px 50px 10px 50px;
 }
 
-.panier
-{
-	border-radius:12px 0 12px 0;
-	background: yellow;
-	border:none;
-	color:black;
-    font: bold 12px;
-    padding:6px 0 6px 0;
-    width: 250px;
-    height: auto;
-}
-
 footer
 {
-    display: flex;
+    display: block;
     justify-content: left;
     /*border-radius: 2em 2em 2em 2em;*/
     background-color: white;
@@ -223,22 +233,51 @@ footer
     background-color: orange;
 
     position: absolute;
-    top: 700px;
+    top: 300px;
     left: 0;
     right: 0;
     width: 100%;
     height: auto;
 }
 
+footer h1
+{
+    padding-left: 300px;
+}
+
+footer div
+{
+    padding-left: 300px;
+    padding-bottom: 10px;
+    width: 180px;
+}
+
 footer aside
 {
     display: block;
-    justify-content: center;
-    width: 400px;
+    text-align: center;
+
+    font-size: 18pt;
+    color: white;
+    
+    position: absolute;
+    top: 90px;
+    left: 380px;
+    right: 0;
+    width: 100%;
     height: auto;
 }
 
-footer h2
+footer div input
 {
-    text-align: left;
+    width: 300px;
+    height: 25px;
+}
+
+input[type="submit"]
+{
+    width: 150px;
+    height: 30px;
+    background-color: yellow;
+    box-shadow: 0px 0px 3px #555555;
 }
